@@ -1,3 +1,5 @@
+from playwright.sync_api import Playwright, sync_playwright, expect, Page
+
 def test_right_click(page: Page) -> None:
     page.goto("https://ndrrma.yilab.org.np/")
     context_area = page.locator("#hot-spot")

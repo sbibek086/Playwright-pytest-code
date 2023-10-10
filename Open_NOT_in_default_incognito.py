@@ -8,3 +8,5 @@ def run(page: Page) -> None:
     page = context.new_page()
     page.goto("https://ndrrma.yilab.org.np/")
     page.wait_for_timeout(5000)
+
+#to open non-incognito in chrome, put channel = 'chrome' in Line7
